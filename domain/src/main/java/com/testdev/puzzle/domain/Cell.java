@@ -1,4 +1,4 @@
-package com.testdev.puzzle.core.domain;
+package com.testdev.puzzle.domain;
 
 /**
  * Created by oleh.krupenia on 11/8/2015.

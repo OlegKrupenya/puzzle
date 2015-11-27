@@ -1,9 +1,9 @@
 package services;
 
-import com.testdev.puzzle.core.domain.Field;
-import com.testdev.puzzle.core.domain.UserLevel;
-import com.testdev.puzzle.core.services.FieldService;
-import com.testdev.puzzle.core.services.FieldServiceImpl;
+import com.testdev.puzzle.domain.Field;
+import com.testdev.puzzle.domain.UserLevel;
+import com.testdev.puzzle.services.FieldService;
+import com.testdev.puzzle.services.FieldServiceImpl;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

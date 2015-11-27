@@ -8,7 +8,7 @@ apply from: 'javafx.plugin'
 sourceCompatibility = 1.8
 
 javafx {
-    mainClass 'com.testdev.puzzle.core.main.PuzzleApplication'
+    mainClass 'PuzzleApplication'
 }
 
 repositories {
@@ -17,5 +17,15 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile project(':domain')
+    compile project(':services')
 }
 
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    repositories {
+        mavenCentral()
+    }
+}
